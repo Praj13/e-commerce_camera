@@ -11,6 +11,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <style>
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
 </head>
 
 <body>
@@ -25,17 +31,18 @@
                     <li>Camers</li>
                     <li>Offers</li>
                     <li>Contact</li>
-                    <li class="login">Login</li>
+                    <li class="login"><a href="login.php">Login</a></li>
+
                 </ul>
             </div>
         </div>
 
         <div class="slogan">
-            <p>BUY IN A</p>
-            <p class="snap">SNAP</p>
+            <p>BUY IN A SNAP WITH PRAJ CAMERAS.</p>
+            <!-- <p class="snap">SNAP</p>
             <br>
             <p class="with">WITH</p>
-            <p class="praj">PRAJ CAMERAS</p>
+            <p class="praj">PRAJ CAMERAS</p> -->
         </div>
 
         <div class="btn1">
@@ -49,7 +56,7 @@
         </div>
     </div>
 
-    <br>
+    
 
     <div class="main2">
         <div class="brand">
@@ -72,7 +79,7 @@
         </div>
     </div>
 
-    <br>
+
 
     <div class="main3">
         <div class="left">
